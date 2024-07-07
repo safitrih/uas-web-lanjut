@@ -1,0 +1,53 @@
+<!-- library/templates/library/api_overview.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management System</h1>
+        <p>Selamat datang di dokumentasi API untuk Sistem Manajemen Perpustakaan</p>
+        <h2>Endpoints</h2>
+        <ul>
+            <li><a href="/api/authors/">Authors List</a> - GET, POST</li>
+            <li><a href="/api/books/">Books List</a> - GET, POST</li>
+            <li><a href="/api/borrowers/">Borrowers List</a> - GET, POST</li>
+        </ul>
+    </div>
+</body>
+</html>
